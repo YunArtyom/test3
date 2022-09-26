@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\ClientUser;
 
-use App\Http\Resources\GetClientAllInfo;
+use App\Http\Controllers\Controller;
+use App\Http\Resources\Balance\GetClientAllInfo;
 use App\Models\ClientUser;
 use Illuminate\Http\JsonResponse;
 
