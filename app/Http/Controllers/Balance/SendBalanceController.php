@@ -20,6 +20,7 @@ class SendBalanceController extends Controller
 
     /**
      * Отправка баланса пользователю по номеру телефона.
+     * Проврека на наличие телефона происходит в FormRequest!
      *
      * @param SendBalanceRequest $request
      * @return JsonResponse|StatusResource
