@@ -1,8 +1,8 @@
 <?php
 
-use App\Http\Controllers\AddBalanceController;
+use App\Http\Controllers\Balance\AddBalanceController;
 use App\Http\Controllers\Balance\SendBalanceController;
-use App\Http\Controllers\ClientController;
+use App\Http\Controllers\ClientUser\ClientController;
 use Illuminate\Support\Facades\Route;
 
 

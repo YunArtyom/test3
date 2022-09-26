@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Balance;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\SendBalanceRequest;
-use App\Http\Resources\StatusResource;
+use App\Http\Requests\Balance\SendBalanceRequest;
+use App\Http\Resources\Balance\StatusResource;
 use App\Services\Balance\SendBalanceService;
 use Illuminate\Http\JsonResponse;
 

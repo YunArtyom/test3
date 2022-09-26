@@ -1,14 +1,15 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Balance;
 
-use App\Http\Requests\CallbackCloseInitialRequest;
-use App\Http\Requests\CreateInitialRequest;
-use App\Http\Resources\CreateInitialPaymentInfo;
-use App\Http\Resources\GetCallbackInitialInfo;
+use App\Http\Requests\Balance\CallbackCloseInitialRequest;
+use App\Http\Requests\Balance\CreateInitialRequest;
+use App\Http\Resources\Balance\CreateInitialPaymentInfo;
+use App\Http\Resources\Balance\GetCallbackInitialInfo;
 use App\Services\Balance\AddBalanceService;
 use App\Services\Order\CreateOrderService;
 use Illuminate\Http\JsonResponse;
+use App\Http\Controllers\Controller;
 
 
 class AddBalanceController extends Controller
